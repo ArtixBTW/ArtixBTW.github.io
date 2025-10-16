@@ -17,7 +17,23 @@ body {
 }
 
 .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects h2 {
     color: red;
+    flex-basis: 100%
+}
+
+.project {
+    width: 40vw;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.project img {
+    width: 100%
 }
 
 .contact {
