@@ -1,0 +1,42 @@
+/*
+ * center entire page
+ * see: https://stackoverflow.com/a/14776179
+ */
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* end center entire page */
+
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 12pt;
+    max-width: 8.5in; /* width of US Letter paper */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.max-distance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsets {
+    display: flex;
+    justify-content: center;
+
+    gap: 0.25in;
+}
+
+.skillset {
+    flex-basis: auto;
+}
