@@ -5,13 +5,13 @@
 html {
     display: table;
     margin: auto;
+
+    padding: 0.25in;
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
-
-    margin: 0.25in;
 }
 
 /* end center entire page */
